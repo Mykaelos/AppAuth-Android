@@ -29,11 +29,11 @@ dependencies {
 
 apply from: '../config/style.gradle'
 apply from: '../config/coverage.gradle'
-apply from: '../config/javadoc.gradle'
+//apply from: '../config/javadoc.gradle'
 
 artifacts {
     archives sourcesJar
-    archives javadocJar
+    //archives javadocJar
 }
 
 bintray {
